@@ -40,7 +40,7 @@ public class FunctionApplication {
                 return scanner.nextDouble();
             } catch (InputMismatchException e) {
                 System.out.println("Error: Please enter a valid numeric input.");
-                scanner.next(); // Consume invalid input to avoid infinite loop
+                scanner.next();
             }
         }
     }

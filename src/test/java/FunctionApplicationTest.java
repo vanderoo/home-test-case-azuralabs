@@ -71,14 +71,11 @@ public class FunctionApplicationTest {
 
     @Test
     public void testRepeatCalculation() {
-        // Input values for a, b, c, d, then 'yes' for repeat
         String input = "5\n3\n1\n1\nyes\n5\n1\n2\n1\nno\n";
         provideInput(input);
 
-        // Perform test
         FunctionApplication.main(new String[0]);
 
-        // Validate output
         String expectedOutput = "Enter value for 'a':\n" +
                 "Enter value for 'b':\n" +
                 "Enter value for 'c':\n" +
